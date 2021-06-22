@@ -170,6 +170,7 @@ main {
     color: var(--def-color);
 }
 
+
 .about-right i , .third-menu i {
     background-color: var(--def-color);
     color: white;
@@ -186,7 +187,7 @@ main {
 
 .about-right p {
     text-align: justify;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .flex2 , .booking-flex {
