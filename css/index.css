@@ -88,8 +88,12 @@ main {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     margin: 2%;
+    transition: 0.5s all;
 }
 
+.link-group a:hover {
+  transform: scale(1.1);
+}
 .white {
     background-color: white;
     color: var(--def-color);
@@ -391,19 +395,6 @@ figure  {
   width: 500px;
 }
 
-/* .third-menu ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    padding-bottom: 10px;
-}
-
-.third-menu ul li {
-  margin-top: 1rem
-} */
-
 }
 
 @media only screen and (max-width: 769px) {
@@ -565,6 +556,13 @@ footer {
 }
 .box a:hover , #deer a:hover {
   margin-left: 10px;
+}
+
+.social a {
+  /* float: left; */
+  margin-right: 0.7rem;
+  color: black;
+  display: inline-block;
 }
 
 .box p{
