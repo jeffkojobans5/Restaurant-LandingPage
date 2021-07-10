@@ -229,7 +229,6 @@ main {
     width: 150px;
     height: 150px;
     margin: 3%;
-    /* background-color: green; */
 }
 
 .third-menu ul {
@@ -359,10 +358,6 @@ label {
 .number {
 	margin: 1rem 0rem;
 }
-.number p{
-  /* margin-top: unset; */
-  /* text-align: left; */
-}
 
 .number i {
   color: orange;
@@ -373,7 +368,6 @@ label {
 @media only screen and (max-width: 363px) {
 figure  {
   margin-top: 2.5rem !important;
-  /* display: flex !important; */
 }
 
 .main-left>h1  {
@@ -412,12 +406,8 @@ figure  {
   align-items: center;
   font-family: 'Montserrat' , sans-serif;
   flex-wrap: wrap;
-  /* background-color: green; */
 }
 
-.test-right {
-  /* background-color: gray; */
-}
 
 .test-right p{
   width: 70%;
@@ -464,7 +454,6 @@ figure  {
 }
 
 .test-left {
-  /* background-color:blue; */
   margin: 50px 0;
   height: 300px;
   width: 300px;
@@ -560,7 +549,6 @@ footer {
 }
 
 .social a {
-  /* float: left; */
   margin-right: 0.7rem;
   color: black;
   display: inline-block;
